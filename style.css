@@ -16,19 +16,19 @@
 #outside-title {
   color: black;
   font-family: Courier;
-  font-size: 12pt;
+  font-size: 24pt;
   text-align: center;
 }
 
 #outside-pic {
-  width: 330px;
-  height: 330px;
+  width: 660px;
+  height: 660px;
 }
 
 #outside-help {
   color: black;
   font-family: Courier;
-  font-size: 12pt;
+  font-size: 24pt;
   text-align: center;
   padding: 20px;
 }
@@ -45,19 +45,19 @@
 #inside-title {
   color: black;
   font-family: Courier;
-  font-size: 12pt;
+  font-size: 24pt;
   text-align: center;
 }
 
 #inside-pic {
-  width: 100px;
-  height: 300px;
+  width: 200px;
+  height: 600px;
 }
 
 #message {
   color: black;
   font-family: Courier;
-  font-size: 12pt;
+  font-size: 24pt;
   text-align: center;
 }
 
