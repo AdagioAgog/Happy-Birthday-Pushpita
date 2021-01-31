@@ -3,9 +3,9 @@
   position: absolute;
   background-color: lightgray;
   width: 100%;
-  height: 240%;
+  height: 100%;
   text-align: center;
-  transition: 1.5s;
+  transition: 1s;
   transform-origin: 0;
 }
 
@@ -16,21 +16,22 @@
 #outside-title {
   color: black;
   font-family: Courier;
-  font-size: 45pt;
+  font-size: 1.9rem;
   text-align: center;
 }
 
 #outside-pic {
-  width: 1000px;
-  height: 1000px;
+  width: 30rem;
+  height: 30rem;
+  padding-bottom:0.7rem;
 }
 
 #outside-help {
   color: black;
   font-family: Courier;
-  font-size: 12pt;
+  font-size: 2rem;
   text-align: center;
-  padding: 5px;
+  padding: 0.5rem;
 }
 
 #inside {
@@ -38,30 +39,49 @@
   position: absolute;
   background-color: white;
   width: 100%;
-  height: 90%;
+  height: 60%;
   text-align: center;
 }
 
 #inside-title {
   color: black;
   font-family: Courier;
-  font-size: 45pt;
+  font-size: 2rem;
   text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 0.8rem;
+
 }
 
 #inside-pic {
-  width: 300px;
-  height: 900px;
+  width: 9rem;
+  height: 27rem;
+  padding-top: 0rem;
+ 
 }
 
 #message {
   color: black;
   font-family: Courier;
-  font-size: 38pt;
+  font-size: 1.7rem;
   text-align: center;
 }
 
-button {
+
+#outside-button {
   background: rgb(85, 159, 49);
-  font-size: 50px;
+  font-size: 1.5rem;
+}
+
+#inside-button {
+  background: rgb(85, 159, 49);
+  font-size: 1.5rem;
+  
+}
+
+#message1 {
+  color: black;
+  font-family: Courier;
+  font-size: 1.7rem;
+  text-align: right;
 }
