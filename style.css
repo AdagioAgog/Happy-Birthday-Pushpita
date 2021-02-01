@@ -13,7 +13,7 @@ body {
   position:absolute;
   background-color: lightgray;
   width: 40rem;
-  /* height: 100rem; */
+  height: 50rem;
   
   text-align: center;
   transition: 1s;
