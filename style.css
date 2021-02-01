@@ -1,12 +1,23 @@
+body {
+  background-position: center center;
+  display: flex;
+  flex-direction: column ;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: 600px 600px;
+}
 #outside {
   z-index: 1;
-  position: absolute;
+  position:absolute;
   background-color: lightgray;
   width: 50rem;
   height: 45rem;
   text-align: center;
   transition: 1s;
   transform-origin: 0;
+  
 }
 
 .open-card {
