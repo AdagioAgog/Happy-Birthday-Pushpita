@@ -17,10 +17,10 @@ body {
   position:absolute;
   background-color: lightgray;
   width: 100rem;
-  height: 125rem; 
+  height: 170rem; 
   
   text-align: center;
-  transition: 1s;
+  transition: 1.5s;
   transform-origin: 0;
   
 }
@@ -33,15 +33,22 @@ body {
   color: black;
   font-family: Courier;
   /* font-family: 'Amatic SC', cursive; */
-  font-size: 5rem;
+  font-size: 6rem;
   text-align: center;
   margin-top: 1rem;
 }
 
 #outside-pic {
-  width: 90rem;
-  height: 90rem;
+  width: 95rem;
+  height: 95rem;
   padding-bottom:0.7rem;
+}
+
+#outside-button {
+  background: rgb(85, 159, 49);
+  font-size: 5rem;
+  margin-top: 20rem;
+  padding-top: 3rem;
 }
 
 #outside-help {
@@ -65,7 +72,7 @@ body {
   color: black;
   /* font-family: Courier; */
   font-family: 'Amatic SC', cursive;
-  font-size: 10rem;
+  font-size: 14rem;
   text-align: center;
   margin-top: 3rem;
   margin-bottom: 0.8rem;
@@ -73,8 +80,8 @@ body {
 }
 
 #inside-pic {
-  width: 25rem;
-  height: 75rem;
+  width: 35rem;
+  height: 105rem;
   padding-top: 2rem;
  
 }
@@ -82,20 +89,18 @@ body {
 #message {
   color: black;
   font-family: Courier;
-  font-size: 4rem;
+  font-size: 5rem;
   text-align: center;
 }
 
 
-#outside-button {
-  background: rgb(85, 159, 49);
-  font-size: 5rem;
-  margin-top: 2.8rem;
-}
+
 
 #inside-button {
   background: rgb(85, 159, 49);
   font-size: 4rem;
+  /* margin-top: 2rem; */
+  padding-top: 2rem;
   
   
 }
