@@ -2,8 +2,8 @@
   z-index: 1;
   position: absolute;
   background-color: lightgray;
-  width: 100%;
-  height: 100%;
+  width: 50rem;
+  height: 45rem;
   text-align: center;
   transition: 1s;
   transform-origin: 0;
@@ -38,8 +38,8 @@
   z-index: 0;
   position: absolute;
   background-color: white;
-  width: 100%;
-  height: 60%;
+  width: 50rem;
+  height: 45rem;
   text-align: center;
 }
 
