@@ -1,49 +1,113 @@
-<html>
-
-  <head>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <script src="prefixfree.js"></script>
-  </head>
-
-  <body>
   
-    <div id="outside">
-      <p id="outside-title">
-        
-      </p>
-      <p id="outside-title">
-        2 February 2021.<br>
-        21 revolutions completed yay!
-      </p>
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=East+Sea+Dokdo&family=Indie+Flower&family=Pacifico&display=swap');
 
-      <img id="outside-pic" src="revolution.png">
-
-      <p>
-        <button id="outside-button" onclick="open_card()">open_</button>
-      </p>
-
-    </div>
+body {
+  background-position: center center;
+  display: grid;
+  flex-direction: column ;
+  align-items: center;
+  /* min-width: 40rem;
+  min-height: 20rem; */
+  margin: 0;
+  background-repeat: no-repeat;
+  /* background-size: 600px 600px; */
+}
+#outside {
+  z-index: 1;
+  position:absolute;
+  background-color: lightgray;
+  width: 100rem;
+  height: 170rem; 
   
-    <div id="inside">
-    
-      <p id="inside-title">
-        Happy Birthday!! 
-      </p>
-      
-      <img id="inside-pic" src="girl.png">
-      
-      <p id="message">
-        Khub moja kor..<br> Anonde thak, Sushtho thak :D                
-       <br>_Satabdi
-      </p>
-
-      <p>
-        <button id="inside-button" onclick="close_card()">close_</button>
-      </p>
-      
-    </div>
-    
-  </body>
+  text-align: center;
+  transition: 1.5s;
+  transform-origin: 0;
   
-</html>
+}
+
+.open-card {
+  transform: rotateY(90deg);
+}
+
+#outside-title {
+  color: black;
+  font-family: Courier;
+  /* font-family: 'Amatic SC', cursive; */
+  font-size: 6rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#outside-pic {
+  width: 95rem;
+  height: 95rem;
+  padding-bottom:0.7rem;
+}
+
+#outside-button {
+  background: rgb(85, 159, 49);
+  font-size: 5rem;
+  margin-top: 20rem;
+  padding-top: 3rem;
+}
+
+#outside-help {
+  color: black;
+  font-family: Courier;
+  font-size: 10rem;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+#inside {
+  z-index: 0;
+  position: absolute;
+  background-color: white;
+  width: 100rem;
+  /*height: 100rem; */
+  text-align: center;
+}
+
+#inside-title {
+  color: black;
+  /* font-family: Courier; */
+  font-family: 'Amatic SC', cursive;
+  font-size: 14rem;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 0.8rem;
+
+}
+
+#inside-pic {
+  width: 35rem;
+  height: 105rem;
+  padding-top: 2rem;
+ 
+}
+
+#message {
+  color: black;
+  font-family: Courier;
+  font-size: 5rem;
+  text-align: center;
+}
+
+
+
+
+#inside-button {
+  background: rgb(85, 159, 49);
+  font-size: 4rem;
+  /* margin-top: 2rem; */
+  padding-top: 2rem;
+  
+  
+}
+
+#message1 {
+  color: black;
+  font-family: Courier;
+  font-size: 1.7rem;
+  text-align: right;
+}
